@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme2"
+    tools:context=".FourButtonPage"
+    android:background="@drawable/gradient_1">
+
+
+    <ImageButton
+        android:id="@+id/blood"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:scaleType="fitCenter"
+        android:src="@drawable/blood" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blood"
+        android:text="Blood"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+    <ImageButton
+        android:id="@+id/medicine"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+
+        android:scaleType="fitCenter"
+        android:src="@drawable/medicine" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/medicine"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:text="Medicine"
+        android:textStyle="bold" android:textSize="30sp"/>
+
+    <ImageButton
+        android:id="@+id/medicalhistory"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+
+        android:scaleType="fitCenter"
+        android:src="@drawable/medicalhistory" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/medicalhistory"
+        android:text="BMI"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <ImageButton
+        android:id="@+id/hospital"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+
+        android:scaleType="fitCenter"
+        android:src="@drawable/hospital" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/medicalhistory"
+        android:layout_alignParentRight="true"
+        android:text="Hospitals"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
